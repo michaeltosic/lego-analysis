@@ -1,30 +1,55 @@
 # lego-analysis
 
-## Description:
-...
+Author: M. Tosic
+Date: 01.2022
 
-This repo is to be submitted as part of a project assignment in a data science course.
+## Description:
+This script represents the implementation of the CRISP-DM process for data analysis of the development of lego sets during the past thirty years. Datasets are gathered together and the data is explored and prepared for further analysis. Subsequently, different questions are answered using descriptive statistics and different kinds of visualizations. This repo is to be submitted as part of a project assignment in a data science course.
+
+**Questions of interest**
+1. What number of sets and themes was launched every year since 1991?
+2. What themes were available over the years and with how many sets?
+3. What were the yearly top ten most dominant themes by a number of sets?
+4. What were the record-breaking sets by piece count?
+5. Do sets have more and more pieces in general?
+6. What words do most often come up in set names?
+7. Are lego sets becoming more and more expensive?
+8. How does the value of lego sets change after they are not actively produced anymore (eol)?
+9. What themes do best after eol?
 
 ## Motivation
-This project work is part of my online course on data science. I chose to find new datasets rather than to work with the suggested ones and since I am interested in Russian culture as well as cocktails :), I chose to take a look on the alcohol sales per capita in Russia over the years and use this for my analysis.
-
+This project work is part of my online course on data science. I chose to find new datasets rather than to work with the suggested ones and since I am very interested in Lego since my childhood, I've decided to analyze lego sets from my birth year 1991 to today. :)
 
 ### Mini-Disclaimer
-I am very much a beginner in data analysis and have created this notebook as one of my projects in an online course. Please don't take the conclusions I have made too seriously. If you have suggestions for improvement or insight into maybe some errors I've made, please feel free to let me know.
+This notebook is part of my capstone project for a data science course. The project is independent and has no connection to the company LEGO. I am very much a beginner in data analysis and have created this notebook as one of my projects in an online course. Please don't take the conclusions I have made too seriously. If you have suggestions for improvement or insight into maybe some errors I've made, please feel free to let me know.
 
 ## Installation
 * Anaconda distribution:
     * Python 3.9.7
-    * jupyter notebook 6.4.5
+    * matplotlib    3.4.3
+    * matplotlib-inline 0.1.2
+    * nltk  3.6.5
+    * notebook  6.4.5
+    * numpy 1.20.3
+    * pandas    1.3.4
+    * plotly    5.5.0
+    * regex 2021.8.3
 
-* Additonal packages:
-    * plotly 5.5.0
-
-    ## Sources
-    Data sets where chosen from:
-
+## Sources
+Data being used in this notebook has been downloaded from the following sources:
+* Lego datasets:https://brickset.com/
+* Currency exchange rates: https://www.macrotrends.net/
 
 ## Project Structure:
 The project is made out of the following files:
-* ...
-* ...
+* lego-analysis.ipynb as the main jupyter notebook
+* all datasets are stored in the folder /data as csv files
+
+## CRISP-DM process
+A requirement for the project is also to show the implementation of the CRISP-DM process:
+
+1. Business Understanding
+2. Data Understanding
+3. Prepare Data
+4. Data Modeling(Optional)
+5. Analysis & Evaluation of Results
