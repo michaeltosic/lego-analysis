@@ -2,6 +2,7 @@
 
 Author: M. Tosic
 Date: 01.2022
+...
 
 ## Description:
 This script represents the implementation of the CRISP-DM process for data analysis of the development of lego sets during the past thirty years. Datasets are gathered together and the data is explored and prepared for further analysis. Subsequently, different questions are answered using descriptive statistics and different kinds of visualizations. This repo is to be submitted as part of a project assignment in a data science course.
@@ -17,6 +18,8 @@ This script represents the implementation of the CRISP-DM process for data analy
 8. How does the value of lego sets change after they are not actively produced anymore (eol)?
 9. What themes do best after eol?
 
+*eol = lego-term for end-of-life meaning the date when the set is not being produced
+
 ## Motivation
 This project work is part of my online course on data science. I chose to find new datasets rather than to work with the suggested ones and since I am very interested in Lego since my childhood, I've decided to analyze lego sets from my birth year 1991 to today. :)
 
@@ -24,7 +27,7 @@ This project work is part of my online course on data science. I chose to find n
 This notebook is part of my capstone project for a data science course. The project is independent and has no connection to the company LEGO. I am very much a beginner in data analysis and have created this notebook as one of my projects in an online course. Please don't take the conclusions I have made too seriously. If you have suggestions for improvement or insight into maybe some errors I've made, please feel free to let me know.
 
 ## Installation
-* Anaconda distribution:
+An Anaconda distribution and the following packages are required:
     * Python 3.9.7
     * matplotlib    3.4.3
     * matplotlib-inline 0.1.2
