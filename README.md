@@ -28,15 +28,15 @@ This notebook is part of my capstone project for a data science course. The proj
 
 ## Installation
 An Anaconda distribution and the following packages are required:
-    * Python 3.9.7
-    * matplotlib    3.4.3
-    * matplotlib-inline 0.1.2
-    * nltk  3.6.5
-    * notebook  6.4.5
-    * numpy 1.20.3
-    * pandas    1.3.4
-    * plotly    5.5.0
-    * regex 2021.8.3
+* Python 3.9.7
+* matplotlib    3.4.3
+* matplotlib-inline 0.1.2
+* nltk  3.6.5
+* notebook  6.4.5
+* numpy 1.20.3
+* pandas    1.3.4
+* plotly    5.5.0
+* regex 2021.8.3
 
 ## Sources
 Data being used in this notebook has been downloaded from the following sources:
