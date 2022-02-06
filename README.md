@@ -45,8 +45,15 @@ An Anaconda distribution and the following packages are required:
 
 ## Sources
 Data being used in this notebook has been downloaded from the following sources:
-* Lego datasets:https://brickset.com/
-* Currency exchange rates: https://www.macrotrends.net/
+
+Lego datasets:
+* https://brickset.com/
+
+Currency exchange rates:
+* www.macrotrends.net
+
+Consumer Price Index (CPI):
+* https://fred.stlouisfed.org/series/CPIAUCSL
 
 ## Project Structure:
 The project is made out of the following files:
