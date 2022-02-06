@@ -7,7 +7,7 @@ Date: 02.2022
 This script represents the implementation of the CRISP-DM process for data analysis of the development of lego sets during the past thirty years. Datasets are gathered together and the data is explored and prepared for further analysis. Subsequently, different questions are answered using descriptive statistics and different kinds of visualizations. This repo is to be submitted as part of a project assignment in a data science course.
 
 A Medium article about this project is available here:
-https://medium.com/@michaeltosicde/three-decades-of-lego-letting-data-tell-the-story-a45e92e7d228
+https://medium.com/@michaeltosicde/three-decades-of-lego-a-data-science-project-2842c778e088
 
 **Questions of interest**
 1. What number of sets and themes was launched every year since 1991?
